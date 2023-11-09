@@ -1,0 +1,26 @@
+
+GET http://localhost:6200/tasks
+Content-Type: application/json
+
+
+### create post request
+POST http://localhost:6200/tasks
+Content-Type: application/json
+
+{
+    "title": "Second simo limo sit",
+    "description": "lorem sit les mio lap uino",
+    "date": "23-2-2022",
+    "priority":"normal",
+    "status":"Inprogress"
+}
+
+###s update request
+PUT http://localhost:6200/tasks
+Content-Type: application/json
+
+{
+    "id": "e1c29820-7d3c-11ee-bddf-34f64b82dd44",
+    "status": "Inprogress"
+
+}
